@@ -54,17 +54,115 @@
 
     /*----------------------------------------teclecer_contact-----------------------------------*/
 
-    .teclever_logo_1{
-
+    .fb{
+            position: fixed;
+    top: 1em;
+    z-index: 1000;
+    }
+    .facebook{
+            left: -4.5em;
+            top: 9px;
+            width: 4.8em;
     }
 
-
-
-
-
-    /*------------------------------------teclever services------------------------------------------------*/
-
-    .header_box{
-    border:1px solid black;
-    height: 72px;
+    .twitter{
+        right: 20em;
     }
+
+    .linkedin{
+        right:13.5em;
+    }
+
+    .google{
+        right: 8em;
+    top: 14px;
+    }
+
+    .logo{
+            top: 0;
+    left: 5.3em;
+    z-index: 100000;
+    }
+
+    .rss{
+            right: 3.1em;
+    top: 7px;
+    }
+    /*.social img{
+        position:relative;
+        top:-1px;
+    }*/
+
+    .nav_head{
+       border: 1px solid none;
+    padding: 12px;
+    position: fixed;
+    top: 2.6em;
+    z-index: 1000;
+    background:rgba(140, 138, 133, 0.52);
+}
+    
+.footr_contact{
+    border: 1px solid none;
+    padding: 2.4%;
+     background: -webkit-linear-gradient(#188bae, #0b5e77);
+}
+
+.social img {
+    position: absolute;
+    /* margin: 0 30px; */
+    top: 8px;
+    margin-right: 3.5em;
+}
+
+.nav_tab{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px 2px;
+    margin-left: 23px;
+}
+
+.nav_tab:hover{
+    text-decoration: none;
+    color: #0D657F
+}
+.nav_tab:active{
+
+    color: gray;
+}
+.nav_tab:focus{
+    text-decoration: none;
+    color: gray;
+}
+
+p.contact_hedr{
+    color: white;
+    font-size:36px;
+}
+
+p.contct_contnt{
+    color: white;
+    font-size: 14px;
+}
+
+.fotr_icon{
+    position: relative;
+    left: 2.4em;
+    top: 5px;
+}
+/*------------------------------------teclever services------------------------------------------------*/
+
+.first_page{
+    background-image: url(../images/teclever_service/bg1.png);
+}
+
+.frstpage_headr{
+    font-size: 48px;
+    color: #015c77;
+}
+
+.frstpage_content{
+    font-size: 14px;
+    color: white;
+}
