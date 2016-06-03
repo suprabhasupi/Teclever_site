@@ -2,58 +2,66 @@
 <html>
 
 <head>
-
     <title>TECLEVER_CONTACT</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="css/teclever_1.css">
-     <link rel="stylesheet" type="text/css" href="css/new_css.css">
+    <link rel="stylesheet" type="text/css" href="css/teclever_1.css">
+    <link rel="stylesheet" type="text/css" href="css/new_css.css">
     <script src="js/jquery.min.js"></script>
-
-    <style type="text/css">
-          img {
-        /*width: 100%;*/
-        box-sizing: border-box;
-    }
-    
-    .svg-normal-mask {
-        -webkit-mask: url(logo_shape_contact.svg);
-        mask: url(logo_shape_contact.svg);
-        position: relative;
-        top: -6.1em;
-        -webkit-mask-position: 0px -30px;
-        animation: up_n_down 5s infinite alternate;
-        left: 6em;
-    }
-     .full_page {
-        background-image: url(images/img_blur.jpg);
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        margin: 0px;
-        min-height: 100%;
-        min-width: 1024px;
-        /* Set up proportionate scaling */
-        width: 100%;
-        height: auto;
-        /* Set up positioning */
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-    </style>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="full_page">
-            <img src="images/TECLEVER-gif-logo-(1).png" class="teclever_logo">
-            <!-- <span class="service tregular">SERVICES</span> -->
-            <!-- <img src="images/left_arrow.png" class="left_arrow"> -->
-            <!-- <span class="solution tregular">SOLUTIONS</span> -->
-            <!-- <img src="images/right_arrow.png" class="right_arrow"> -->
-            <img src="images/map.png" alt="" class="svg-normal-mask map_svg" />
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+        <div class="row">
+            <!--   <script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:3,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+ -->
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+            <div style='overflow:hidden;height:530px;width:100%;'>
+                <!-- <div id='gmap_canvas' style='height:530px;width:1336px;'></div>  -->
+                <div id='gmap_canvas' style='height:530px;width:100%;'></div>
+                <div><small><a href="http://embedgooglemaps.com">                                 embed google maps                           </a></small></div>
+                <div><small><a href="https://termsofusegenerator.net">terms of use example</a></small></div>
+                <style>
+                #gmap_canvas img {
+                    max-width: none!important;
+                    background: none!important
+                }
+                </style>
+            </div>
+            <script type='text/javascript'>
+            function init_map() {
+                var myOptions = {
+                    zoom: 21,
+                    center: new google.maps.LatLng(12.8886153, 77.6390237),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    disableDefaultUI: true
+                };
+                map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(12.8886153, 77.6390237)
+                });
+                infowindow = new google.maps.InfoWindow({
+                    content: '<strong>TECLEVER</strong><br>Teclever Solutions Pvt Ltd, Bangalore<br>'
+                });
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.open(map, marker);
+                });
+                infowindow.open(map, marker);
+            }
+            google.maps.event.addDomListener(window, 'load', init_map);
+            </script>
+            <!-- <div id="googleMap" style="width:1336px;height:530px;"></div> -->
         </div>
     </div>
 </body>
