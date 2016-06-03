@@ -1,0 +1,70 @@
+  
+    
+    body {
+        margin: 0px
+    }
+    
+   
+    
+    span.service {
+        color: #005B76;
+        font-weight: bold;
+        font-size: 24px;
+        position: relative;
+        top: 12.3em;
+        float: left;
+        left: 4.5em;
+    }
+    
+    span.solution {
+        color: #005B76;
+        font-weight: bold;
+        font-size: 24px;
+        position: relative;
+        top:  12.3em;
+        float: right;
+        right: 4.5em;
+    }
+    
+    img.teclever_logo {
+            width: 118px;
+    height: 66px;
+        margin-left: -3em;
+       
+    }
+    
+    img.left_arrow {
+        width: 36px;
+        height: 36px;
+        position: relative;
+        top: 23em;
+        float: left;
+        right: -8px;
+    }
+    
+    .right_arrow {
+        width: 36px;
+        height: 36px;
+        position: relative;
+        top: 23em;
+        float: right;
+        left: 1em;
+    }
+   
+
+    /*----------------------------------------teclecer_contact-----------------------------------*/
+
+    .teclever_logo_1{
+
+    }
+
+
+
+
+
+    /*------------------------------------teclever services------------------------------------------------*/
+
+    .header_box{
+    border:1px solid black;
+    height: 72px;
+    }

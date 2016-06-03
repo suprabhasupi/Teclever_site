@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>TECLEVER</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/teclever_1.css">
+     <link rel="stylesheet" type="text/css" href="css/new_css.css">
+    <script src="js/jquery.min.js"></script>
+
+    <style type="text/css">
+          img {
+        /*width: 100%;*/
+        box-sizing: border-box;
+    }
+
+/*
+    @keyframes up_n_down {
+        0% {
+            -webkit-mask-position: 0px 0px;
+        }
+        ,
+        50% {
+            -webkit-mask-position: 0px 150px;
+        }
+        ,
+        100% {
+            -webkit-mask-position: 0px 0px;
+        }
+    }
+    
+    @-webkit-keyframes up_n_down {
+        0% {
+            -webkit-mask-position: 0px 0px;
+        }
+        ,
+        50% {
+            -webkit-mask-position: 0px 150px;
+        }
+        ,
+        100% {
+            -webkit-mask-position: 0px 0px;
+        }
+    }*/
+
+    @keyframes up_n_down{
+        to{
+           -webkit-mask-position: 0px 0px;
+        }
+    }
+    
+    
+    .svg-normal-mask {
+        -webkit-mask: url(logo_shape.svg);
+        mask: url(logo_shape.svg);
+        position: relative;
+        top: -5.8em;
+        -webkit-mask-position: 0px -40px;
+        animation: up_n_down 4s alternate infinite linear;
+        left: 6em;
+        opacity: .8;
+         width: 94%;
+        /*height: auto;*/
+        height:110%;
+
+    }
+     .full_page {
+        background-image: url(images/img_blur.jpg);
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        margin: 0px;
+        min-height: 100%;
+        min-width: 1024px;
+        /* Set up proportionate scaling */
+        width: 100%;
+        /*height: auto;*/
+        height:100%;
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="full_page">
+            <img src="images/TECLEVER-gif-logo-(1).png" class="teclever_logo">
+            <span class="service tregular">SERVICES</span>
+            <img src="images/left_arrow.png" class="left_arrow">
+            <span class="solution tregular">SOLUTIONS</span>
+            <img src="images/right_arrow.png" class="right_arrow">
+            <img src="images/img_1.jpg" alt="" class="svg-normal-mask" />
+        </div>
+    </div>
+</body>
+
+</html>
