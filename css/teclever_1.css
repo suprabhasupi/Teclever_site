@@ -160,7 +160,10 @@ p.contct_contnt{
     left: 12px;
 }
 /*------------------------------------teclever services------------------------------------------------*/
+.service_page{
+    height: 85em;
 
+}
 .first_page_service{
     background-image: url(../images/teclever_service/bg1.png);
     background-repeat: no-repeat;
@@ -209,9 +212,9 @@ p.contct_contnt{
 }
 
 .service_scndpage_contnt{
-    position: absolute;
-    top: 58em;
-    left: 2.7em;
+        position: relative;
+    bottom: 36em;
+    left: 3.5em;
 }
 
 ul.service_list{
@@ -225,6 +228,79 @@ ul.service_list{
     left: -2.4em;
 }
 
-button{
-    border-radius: 1px;
+button.second_buton{
+    position: relative;
+    top: -24.5em;
+    right: 10.3em;
+    background: #015c77;
+    border-color: #015c77;
+    outline: none;
+    color: white;
+    width: 120px;
+    height: 30px;
 }
+
+/*--------------third_page_service---------------*/
+.third_page_service{
+     background-image: url(../images/teclever_service/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.4em;
+    width: 100%;
+     position: relative;
+    /*top: -23.7em;*/
+}
+
+button.third_buton{
+        position: relative;
+    top: -24em;
+    left: -10em;
+    background: transparent;
+    color: white;
+    border-color: white;
+    width: 120px;
+    height: 30px;
+    outline: none;
+}
+
+.service_third_pag{
+    position: absolute;
+   bottom: -13.2em;
+    right: 1.5em;
+}
+.service_thirdpage_contnt{
+    position: relative;
+    bottom: 36.5em;
+    left: -1.5em;
+}
+
+
+
+/*---------------------fourth_page_service-----------*/
+
+.fourth_page_service
+{
+      background-image: url(../images/teclever_service/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.3em;
+    width: 100%;
+     position: relative;
+}
+
+button.fourth_buton{
+    position: relative;
+    bottom: 24.5em;
+    right: 9.2em;
+    background: transparent;
+    border-color: white;
+    outline: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+
+
+
+/*--------------------------teclecver solutions--------------------*/
+
