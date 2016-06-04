@@ -1,9 +1,10 @@
   body {
-      margin: 0px
+      margin: 0px;
+      overflow-x:hidden;
   }
   
   span.service {
-      color: #005B76;
+      color: white;
       font-weight: bold;
       font-size: 24px;
       position: relative;
@@ -13,7 +14,7 @@
   }
   
   span.solution {
-      color: #005B76;
+      color: white;
       font-weight: bold;
       font-size: 24px;
       position: relative;
@@ -45,6 +46,7 @@
       float: right;
       left: 1em;
   }
+  
   /*----------------------------------------teclecer_contact-----------------------------------*/
   
   .fb {
@@ -393,3 +395,86 @@ ul.iner_service_ritbx_cont_list{
     background-color: #e0eef2;
     margin-bottom: 2em;
 }
+
+
+
+/*-----------homepage--------------------------------*/
+.social_hompag img{
+    margin-right: 0;
+    margin-left: -1em;
+  }
+
+  .facebook
+  {
+
+    left: 9px;
+  }
+
+  .foter_frst_row_hompag{
+    margin-top: 10px;
+    margin-left: 2.5em;
+  }
+
+  input.pasword_hompag{
+    margin-left: 1.8em;
+    outline: none;
+    text-indent: 8px;
+     /*background: #3e3e3e;*/
+  }
+input.username_hompag{
+  outline: none;
+    text-indent: 8px;
+    /*background: #3e3e3e;*/
+}
+  button.login_butn_hompag{
+    margin-left: 1.8em;
+    background-color: #015c77;
+    color: white;
+    border-color:#015c77;
+    outline: none;
+  }
+
+  .tab_bar_homepage{
+    position: relative;
+    left: -3em;
+  }
+
+  .hompage_frst_row{
+        position: relative;
+    top: 1em;
+
+  }
+
+  .hompage_scnd_row{
+    position: relative;
+    top: 1.5em;
+  }
+
+  span.ftr_cont_hompg{
+    font-size: 14px;
+    color: #636363;
+    position: relative;
+    left: -3.8em;
+    top: 1px;
+  }
+
+  a span.frgtpawd{
+    float: right;
+    color: #015c77;
+    text-decoration: none;
+  }
+
+  a span.frgtpawd:hover{
+    color: white;
+  }
+
+  img.img_c{
+    position: relative;
+    left: -3.8em;
+  }
+
+  input[type="txt"]{
+    background-color: #3e3e3e;
+    color: #7c7c7c;
+    border-color: #7c7c7c;
+  }
