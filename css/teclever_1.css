@@ -54,17 +54,253 @@
 
     /*----------------------------------------teclecer_contact-----------------------------------*/
 
-    .teclever_logo_1{
-
+    .fb{
+            position: fixed;
+    top: 1em;
+    z-index: 1000;
+    }
+    .facebook{
+            left: -4.5em;
+            top: 9px;
+            width: 4.8em;
     }
 
-
-
-
-
-    /*------------------------------------teclever services------------------------------------------------*/
-
-    .header_box{
-    border:1px solid black;
-    height: 72px;
+    .twitter{
+        right: 20em;
     }
+
+    .linkedin{
+        right:13.5em;
+    }
+
+    .google{
+        right: 8em;
+    top: 14px;
+    }
+
+    .logo{
+            top: 0;
+    left: 5.3em;
+    z-index: 100000;
+    }
+
+    .rss{
+            right: 3.1em;
+    top: 7px;
+    }
+    /*.social img{
+        position:relative;
+        top:-1px;
+    }*/
+
+    .nav_head{
+       border: 1px solid none;
+    padding: 12px;
+    position: fixed;
+    top: 2.6em;
+    z-index: 1000;
+    background:rgba(140, 138, 133, 0.52);
+}
+    
+.footr_contact{
+    border: 1px solid none;
+    padding: 2%;
+     background: -webkit-linear-gradient(#188bae, #0b5e77);
+}
+
+.social img {
+    position: absolute;
+    /* margin: 0 30px; */
+    top: 8px;
+    margin-right: 3.5em;
+}
+
+.nav_tab{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px 2px;
+    margin-left: 23px;
+}
+
+.nav_tab:hover{
+    text-decoration: none;
+    color: #0D657F
+}
+.nav_tab:active{
+
+    color: gray;
+}
+.nav_tab:focus{
+    text-decoration: none;
+    color: gray;
+}
+
+p.contact_hedr{
+    color: white;
+    font-size:36px;
+}
+
+p.contct_contnt{
+    color: white;
+    font-size: 14px;
+}
+
+.fotr_icon{
+    position: relative;
+    left: 2.4em;
+    top: 5px;
+}
+.contact_footer{
+    position: relative;
+    top: -10px;
+}
+.tab_bar{
+        position: relative;
+    left: 12px;
+}
+/*------------------------------------teclever services------------------------------------------------*/
+.service_page{
+    height: 85em;
+
+}
+.first_page_service{
+    background-image: url(../images/teclever_service/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47em;
+    width: 100%;
+}
+
+.social_service
+{
+    position: relative;
+    top: -47em;
+}
+
+.service_frstpage_contnt{
+    position: absolute;
+    top: -31em;
+    /* text-align: center; */
+    left: 13%;
+}
+
+
+.frstpage_headr{
+    position: relative;
+    left: 1em;
+    top: -10px;
+    font-size: 48px;
+    color: #015c77;
+}
+
+.frstpage_content{
+    font-size: 14px;
+    color: white;
+    position: relative;
+    top: -9px;
+}
+
+.second_page_service{
+    background-image: url(../images/teclever_service/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.3em;
+    width: 100%;
+    position: relative;
+    top: -2px;
+}
+
+.service_scndpage_contnt{
+        position: relative;
+    bottom: 36em;
+    left: 3.5em;
+}
+
+ul.service_list{
+    color: white;
+        position: relative;
+    left: -2.6em;
+    top: -1em;
+}
+.service_secnd_pag{
+    position: relative;
+    left: -2.4em;
+}
+
+button.second_buton{
+    position: relative;
+    top: -24.5em;
+    right: 10.3em;
+    background: #015c77;
+    border-color: #015c77;
+    outline: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+
+/*--------------third_page_service---------------*/
+.third_page_service{
+     background-image: url(../images/teclever_service/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.4em;
+    width: 100%;
+     position: relative;
+    /*top: -23.7em;*/
+}
+
+button.third_buton{
+        position: relative;
+    top: -24em;
+    left: -10em;
+    background: transparent;
+    color: white;
+    border-color: white;
+    width: 120px;
+    height: 30px;
+    outline: none;
+}
+
+.service_third_pag{
+    position: absolute;
+   bottom: -13.2em;
+    right: 1.5em;
+}
+.service_thirdpage_contnt{
+    position: relative;
+    bottom: 36.5em;
+    left: -1.5em;
+}
+
+
+
+/*---------------------fourth_page_service-----------*/
+
+.fourth_page_service
+{
+      background-image: url(../images/teclever_service/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.3em;
+    width: 100%;
+     position: relative;
+}
+
+button.fourth_buton{
+    position: relative;
+    bottom: 24.5em;
+    right: 9.2em;
+    background: transparent;
+    border-color: white;
+    outline: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+
+
+
+/*--------------------------teclecver solutions--------------------*/
+
