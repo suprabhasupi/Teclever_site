@@ -104,7 +104,7 @@
     
 .footr_contact{
     border: 1px solid none;
-    padding: 2.4%;
+    padding: 2%;
      background: -webkit-linear-gradient(#188bae, #0b5e77);
 }
 
@@ -151,13 +151,42 @@ p.contct_contnt{
     left: 2.4em;
     top: 5px;
 }
+.contact_footer{
+    position: relative;
+    top: -10px;
+}
+.tab_bar{
+        position: relative;
+    left: 12px;
+}
 /*------------------------------------teclever services------------------------------------------------*/
 
-.first_page{
+.first_page_service{
     background-image: url(../images/teclever_service/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47em;
+    width: 100%;
 }
 
+.social_service
+{
+    position: relative;
+    top: -47em;
+}
+
+.service_frstpage_contnt{
+    position: absolute;
+    top: -31em;
+    /* text-align: center; */
+    left: 13%;
+}
+
+
 .frstpage_headr{
+    position: relative;
+    left: 1em;
+    top: -10px;
     font-size: 48px;
     color: #015c77;
 }
@@ -165,4 +194,37 @@ p.contct_contnt{
 .frstpage_content{
     font-size: 14px;
     color: white;
+    position: relative;
+    top: -9px;
+}
+
+.second_page_service{
+    background-image: url(../images/teclever_service/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.3em;
+    width: 100%;
+    position: relative;
+    top: -2px;
+}
+
+.service_scndpage_contnt{
+    position: absolute;
+    top: 58em;
+    left: 2.7em;
+}
+
+ul.service_list{
+    color: white;
+        position: relative;
+    left: -2.6em;
+    top: -1em;
+}
+.service_secnd_pag{
+    position: relative;
+    left: -2.4em;
+}
+
+button{
+    border-radius: 1px;
 }
