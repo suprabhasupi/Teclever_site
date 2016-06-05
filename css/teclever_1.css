@@ -1,215 +1,403 @@
+  body {
+      margin: 0px;
+      overflow-x:hidden;
+  }
   
-    
-    body {
-        margin: 0px
-    }
-    
-   
-    
-    span.service {
-        color: #005B76;
-        font-weight: bold;
-        font-size: 24px;
-        position: relative;
-        top: 12.3em;
-        float: left;
-        left: 4.5em;
-    }
-    
-    span.solution {
-        color: #005B76;
-        font-weight: bold;
-        font-size: 24px;
-        position: relative;
-        top:  12.3em;
-        float: right;
-        right: 4.5em;
-    }
-    
-    img.teclever_logo {
-            width: 118px;
-    height: 66px;
-        margin-left: -3em;
-       
-    }
-    
-    img.left_arrow {
-        width: 36px;
-        height: 36px;
-        position: relative;
-        top: 23em;
-        float: left;
-        right: -8px;
-    }
-    
-    .right_arrow {
-        width: 36px;
-        height: 36px;
-        position: relative;
-        top: 23em;
-        float: right;
-        left: 1em;
-    }
-   
-
-    /*----------------------------------------teclecer_contact-----------------------------------*/
-
-    .fb{
-            position: fixed;
-    top: 1em;
-    z-index: 1000;
-    }
-    .facebook{
-            left: -4.5em;
-            top: 9px;
-            width: 4.8em;
-    }
-
-    .twitter{
-        right: 20em;
-    }
-
-    .linkedin{
-        right:13.5em;
-    }
-
-    .google{
-        right: 8em;
-    top: 14px;
-    }
-
-    .logo{
-            top: 0;
-    left: 5.3em;
-    z-index: 100000;
-    }
-
-    .rss{
-            right: 3.1em;
-    top: 7px;
-    }
-    /*.social img{
+  span.service {
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      position: relative;
+      top: 12.3em;
+      float: left;
+      left: 4.5em;
+  }
+  
+  span.solution {
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      position: relative;
+      top: 12.3em;
+      float: right;
+      right: 4.5em;
+  }
+  
+  img.teclever_logo {
+      width: 118px;
+      height: 66px;
+      margin-left: -3em;
+  }
+  
+  img.left_arrow {
+      width: 36px;
+      height: 36px;
+      position: relative;
+      top: 23em;
+      float: left;
+      right: -8px;
+  }
+  
+  .right_arrow {
+      width: 36px;
+      height: 36px;
+      position: relative;
+      top: 23em;
+      float: right;
+      left: 1em;
+  }
+  
+  /*----------------------------------------teclecer_contact-----------------------------------*/
+  
+  .fb {
+      position: fixed;
+      top: 1em;
+      z-index: 1000;
+  }
+  
+  .facebook {
+      left: -4.5em;
+      top: 9px;
+      width: 4.8em;
+  }
+  
+  .twitter {
+      right: 20em;
+  }
+  
+  .linkedin {
+      right: 13.5em;
+  }
+  
+  .google {
+      right: 8em;
+      top: 14px;
+  }
+  
+  .logo {
+      top: 0;
+      left: 5.3em;
+      z-index: 100000;
+  }
+  
+  .rss {
+      right: 3.1em;
+      top: 7px;
+  }
+  /*.social img{
         position:relative;
         top:-1px;
     }*/
-
-    .nav_head{
-       border: 1px solid none;
-    padding: 12px;
-    position: fixed;
-    top: 2.6em;
-    z-index: 1000;
-    background:rgba(140, 138, 133, 0.52);
+  
+  .nav_head {
+      border: 1px solid none;
+      padding: 12px;
+      position: fixed;
+      top: 2.6em;
+      z-index: 1000;
+      background: rgba(140, 138, 133, 0.52);
+  }
+  
+  .footr_contact {
+      border: 1px solid none;
+      padding: 2%;
+      background: -webkit-linear-gradient(#188bae, #0b5e77);
+  }
+  
+  .social img {
+      position: absolute;
+      /* margin: 0 30px; */
+      top: 8px;
+      margin-right: 3.5em;
+  }
+  
+  .nav_tab {
+      color: white;
+      font-size: 14px;
+      text-decoration: none;
+      padding: 0px 2px;
+      margin-left: 23px;
+  }
+  
+  .nav_tab:hover {
+      text-decoration: none;
+      color: #0D657F
+  }
+  
+  .nav_tab:active {
+      color: gray;
+  }
+  
+  .nav_tab:focus {
+      text-decoration: none;
+      color: gray;
+  }
+  
+  p.contact_hedr {
+      color: white;
+      font-size: 36px;
+  }
+  
+  p.contct_contnt {
+      color: white;
+      font-size: 14px;
+  }
+  
+  .fotr_icon {
+      position: relative;
+      left: 2.4em;
+      top: 5px;
+  }
+  
+  .contact_footer {
+      position: relative;
+      top: -10px;
+  }
+  
+  .tab_bar {
+      position: relative;
+      left: 12px;
+  }
+  /*------------------------------------teclever services------------------------------------------------*/
+  
+  .service_page {
+      height: 85em;
+  }
+  
+  .first_page_service {
+      background-image: url(../images/teclever_service/bg1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 47em;
+      width: 100%;
+  }
+  
+  .social_service {
+      position: relative;
+      top: -47em;
+  }
+  
+  .service_frstpage_contnt {
+      position: absolute;
+      top: -31em;
+      /* text-align: center; */
+      left: 13%;
+  }
+  
+  .frstpage_headr {
+      position: relative;
+      left: 1em;
+      top: -10px;
+      font-size: 48px;
+      color: #015c77;
+  }
+  
+  .frstpage_content {
+      font-size: 14px;
+      color: white;
+      position: relative;
+      top: -9px;
+  }
+  
+  .second_page_service {
+      background-image: url(../images/teclever_service/bg2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 47.3em;
+      width: 100%;
+      position: relative;
+      top: -2px;
+  }
+  
+  .service_scndpage_contnt {
+      position: relative;
+      bottom: 36em;
+      left: 3.5em;
+  }
+  
+  ul.service_list {
+      color: white;
+      position: relative;
+      left: -2.6em;
+      top: -1em;
+  }
+  
+  .service_secnd_pag {
+      position: relative;
+      left: -2.4em;
+  }
+  
+  button.second_buton {
+      position: relative;
+      top: -24.5em;
+      right: 10.3em;
+      background: #015c77;
+      border-color: #015c77;
+      outline: none;
+      color: white;
+      width: 120px;
+      height: 30px;
+  }
+  /*--------------third_page_service---------------*/
+  
+  .third_page_service {
+      background-image: url(../images/teclever_service/bg3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 47.4em;
+      width: 100%;
+      position: relative;
+      /*top: -23.7em;*/
+  }
+  
+  button.third_buton {
+      position: relative;
+      top: -24em;
+      left: -10em;
+      background: transparent;
+      color: white;
+      border-color: white;
+      width: 120px;
+      height: 30px;
+      outline: none;
+  }
+  
+  .service_third_pag {
+      position: absolute;
+      bottom: -13.2em;
+      right: 1.5em;
+  }
+  
+  .service_thirdpage_contnt {
+      position: relative;
+      bottom: 36.5em;
+      left: -1.5em;
+  }
+  /*---------------------fourth_page_service-----------*/
+  
+  .fourth_page_service {
+      background-image: url(../images/teclever_service/bg4.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 47.3em;
+      width: 100%;
+      position: relative;
+  }
+  
+  button.fourth_buton {
+      position: relative;
+      bottom: 24.5em;
+      right: 9.2em;
+      background: transparent;
+      border-color: white;
+      outline: none;
+      color: white;
+      width: 120px;
+      height: 30px;
+  }
+  /*--------------------------teclecver service inner--------------------*/
+.first_page_inner_service{
+      background-image: url(../images/teclever_service_inner/bg1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 704px;
 }
-    
-.footr_contact{
-    border: 1px solid none;
-    padding: 2%;
+
+.frst_box_serviceinner{
+    border:1px solid none;
+    margin-top: 1em;
+    height: 374px;
      background: -webkit-linear-gradient(#188bae, #0b5e77);
 }
+.scndpage_iservice{
+ font-size: 14px;
+      color: white;
+      position: relative;
+      top: 28px;
+  }
 
-.social img {
-    position: absolute;
-    /* margin: 0 30px; */
-    top: 8px;
-    margin-right: 3.5em;
+.iner_service_crcl{
+    margin-top: 3em;
 }
 
-.nav_tab{
-    color: white;
+p.iner_service_crcl_content{
     font-size: 14px;
-    text-decoration: none;
-    padding: 0px 2px;
-    margin-left: 23px;
+      color: white;
+            position: relative;
+top: 3px;
 }
 
-.nav_tab:hover{
-    text-decoration: none;
-    color: #0D657F
-}
-.nav_tab:active{
-
-    color: gray;
-}
-.nav_tab:focus{
-    text-decoration: none;
-    color: gray;
+.iner_servc_bx{
+    margin-top: 1.3em;
 }
 
-p.contact_hedr{
-    color: white;
-    font-size:36px;
-}
-
-p.contct_contnt{
-    color: white;
-    font-size: 14px;
-}
-
-.fotr_icon{
-    position: relative;
-    left: 2.4em;
-    top: 5px;
-}
-.contact_footer{
-    position: relative;
-    top: -10px;
-}
-.tab_bar{
+.iner_service_lftbx{
+    border:1px solid none;
+    height: 20em;
         position: relative;
-    left: 12px;
+    left: -1em;
+    background: #015c77;
+}
+
+.iner_service_ritbx{
+    border:1px solid none;
+    height: 20em;
+        position: relative;
+    left: 1em;
+    background-color: #e0eef2;
+}
+
+p.inr_srvc_lftbx_hdr{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 14px;
+}
+
+p.iner_service_ritbx_hdr{
+     color: #3c3c3c;
+    font-size: 24px;
+    position: relative;
+    top: 14px;
+}
+p.inr_srvc_lftbx_cont{
+    color: white;
+    font-size: 14px;
+        position: relative;
+    top: 1.3em;
 }
 /*------------------------------------teclever services------------------------------------------------*/
-.service_page{
-    overflow-x:hidden;
-
-}
-.first_page_service{
-    background-image: url(../images/teclever_service/bg1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 47em;
-    width: 100%;
-}
-
-.social_service
-{
-    position: relative;
-    top: -47em;
-}
-
-.service_frstpage_contnt{
-    position: absolute;
-    top: -31em;
-    /* text-align: center; */
-    left: 13%;
-}
-
-
-.frstpage_headr{
-    position: relative;
-    left: 1em;
-    top: -10px;
-    font-size: 48px;
-    color: #015c77;
-}
-
-.frstpage_content{
+p.iner_service_ritbx_cont{
+     color: #3c3c3c;
     font-size: 14px;
-    color: white;
-    position: relative;
-    top: -9px;
+        position: relative;
+    top: 1.3em;
 }
 
-.second_page_service{
-    background-image: url(../images/teclever_service/bg2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 47.3em;
-    width: 100%;
+ul.inr_srvc_lftbx_cont_list{
     position: relative;
-    top: -2px;
+    left: -1.4em;
+    color: white;
+    top: 2.3em;
 }
+
+ul.iner_service_ritbx_cont_list{
+     position: relative;
+    left: -1.4em;
+    color: #3c3c3c;
+    top: 2.3em;
+}
+
+.servic_inner_fotr{
+    margin-top: 1.3em;
+    border:1px solid none;
+    height: 107px;
+    background-color: #e0eef2;
+    margin-bottom: 2em;
+}
+
+
+
 
 .service_scndpage_contnt{
     position: relative;
@@ -222,90 +410,83 @@ p.contct_contnt{
     left: 3.5em;
 }
 
-ul.service_list{
+/*-----------homepage--------------------------------*/
+.social_hompag img{
+    margin-right: 0;
+    margin-left: -1em;
+  }
+
+  .facebook
+  {
+
+    left: 9px;
+  }
+
+  .foter_frst_row_hompag{
+    margin-top: 10px;
+    margin-left: 2.5em;
+  }
+
+  input.pasword_hompag{
+    margin-left: 1.8em;
+    outline: none;
+    text-indent: 8px;
+     /*background: #3e3e3e;*/
+  }
+input.username_hompag{
+  outline: none;
+    text-indent: 8px;
+    /*background: #3e3e3e;*/
+}
+  button.login_butn_hompag{
+    margin-left: 1.8em;
+    background-color: #015c77;
     color: white;
+    border-color:#015c77;
+    outline: none;
+  }
+
+  .tab_bar_homepage{
+    position: relative;
+    left: -3em;
+  }
+
+  .hompage_frst_row{
         position: relative;
-    left: -2.6em;
-    top: -1em;
-}
-.service_secnd_pag{
-    position: relative;
-    left: -2.4em;
-}
+    top: 1em;
 
-button.second_buton{
+  }
+
+  .hompage_scnd_row{
     position: relative;
-    top: -24.5em;
-    right: 10.3em;
-    background: #015c77;
-    border-color: #015c77;
-    outline: none;
+    top: 1.5em;
+  }
+
+  span.ftr_cont_hompg{
+    font-size: 14px;
+    color: #636363;
+    position: relative;
+    left: -3.8em;
+    top: 1px;
+  }
+
+  a span.frgtpawd{
+    float: right;
+    color: #015c77;
+    text-decoration: none;
+  }
+
+  a span.frgtpawd:hover{
     color: white;
-    width: 120px;
-    height: 30px;
-}
+  }
 
-/*--------------third_page_service---------------*/
-.third_page_service{
-     background-image: url(../images/teclever_service/bg3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 47.4em;
-    width: 100%;
-     position: relative;
-    /*top: -23.7em;*/
-}
-
-button.third_buton{
-        position: relative;
-    top: -24em;
-    left: -10em;
-    background: transparent;
-    color: white;
-    border-color: white;
-    width: 120px;
-    height: 30px;
-    outline: none;
-}
-
-.service_third_pag{
-    position: absolute;
-   bottom: -13.2em;
-    right: 1.5em;
-}
-.service_thirdpage_contnt{
+  img.img_c{
     position: relative;
-    bottom: 36.5em;
-    left: -1.5em;
-}
+    left: -3.8em;
+  }
 
-
-
-/*---------------------fourth_page_service-----------*/
-
-.fourth_page_service
-{
-      background-image: url(../images/teclever_service/bg4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 47.3em;
-    width: 100%;
-     position: relative;
-}
-
-button.fourth_buton{
-    position: relative;
-    top: 10.5em;
-    right: 9.2em;
-    background: transparent;
-    border-color: white;
-    outline: none;
-    color: white;
-    width: 120px;
-    height: 30px;
-}
-
-
-
-/*--------------------------teclecver solutions--------------------*/
-
+  input[type="txt"]{
+    background-color: #3e3e3e;
+    color: #7c7c7c;
+    border-color: #7c7c7c;
+  }
