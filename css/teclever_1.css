@@ -573,3 +573,6 @@
   button.thrd_btn_solutn {
       top: 23em;
   }
+.icons_text{
+    z-index: 9999;
+}
