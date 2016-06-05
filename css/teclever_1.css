@@ -161,7 +161,7 @@ p.contct_contnt{
 }
 /*------------------------------------teclever services------------------------------------------------*/
 .service_page{
-    height: 85em;
+    overflow-x:hidden;
 
 }
 .first_page_service{
@@ -212,8 +212,13 @@ p.contct_contnt{
 }
 
 .service_scndpage_contnt{
-        position: relative;
+    position: relative;
     bottom: 36em;
+    left: 3.5em;
+}
+.service_fourthpage_contnt{
+    position: relative;
+    /*bottom: 36em;*/
     left: 3.5em;
 }
 
@@ -290,7 +295,7 @@ button.third_buton{
 
 button.fourth_buton{
     position: relative;
-    bottom: 24.5em;
+    top: 10.5em;
     right: 9.2em;
     background: transparent;
     border-color: white;
