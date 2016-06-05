@@ -3,6 +3,21 @@
       overflow-x: hidden;
   }
   
+ img.teclever_logo.main_logo_teclever{
+position: relative;
+    top: .5em;
+    left: .2em;
+ }
+
+ .logo_box{
+   background:white; 
+   position:absolute;
+   height:5.6em;
+   left: 6em;
+   z-index: 10000;
+ }
+
+
   span.service {
       color: white;
       font-weight: bold;
