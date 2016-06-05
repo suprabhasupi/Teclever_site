@@ -55,7 +55,7 @@
       z-index: 1000;
   }
   
-  .facebook {
+  .facbook {
       left: -4.5em;
       top: 9px;
       width: 4.8em;
@@ -477,4 +477,59 @@ input.username_hompag{
     background-color: #3e3e3e;
     color: #7c7c7c;
     border-color: #7c7c7c;
+  }
+
+
+
+
+  /*-------------------------------teclever solutions---------------------*/
+
+  .first_page_solution {
+      background-image: url(../images/teclever_solution/bg1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /*height: 47em;*/
+      height: 710px;
+      width: 100%;
+  }
+
+  .second_page_solution{
+     background-image: url(../images/teclever_solution/bg2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /*height: 47em;*/
+      height: 706px;
+      width: 100%;
+  }
+
+  .third_page_solution{
+     background-image: url(../images/teclever_solution/bg3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /*height: 47em;*/
+      height: 706px;
+      width: 100%;
+  }
+
+  .scndpag_solution{
+        position: relative;
+    left: 4em;
+    top: 7px;
+  }
+
+  img.sky_solution{
+        position: relative;
+    left: -2em;
+  }
+
+  button.scnd_btn_soltn{
+    position: relative;
+    top: -23.9em;
+    right: 10.2em;
+  }
+
+  img.logo_solution{
+    position: relative;
+    left: -1.5em;
+    margin-top: 2em;
   }
