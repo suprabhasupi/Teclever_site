@@ -286,7 +286,7 @@
   
   button.fourth_buton {
       position: relative;
-      bottom: 24.5em;
+      top:10em;
       right: 9.2em;
       background: transparent;
       border-color: white;
@@ -366,7 +366,7 @@ p.inr_srvc_lftbx_cont{
         position: relative;
     top: 1.3em;
 }
-
+/*------------------------------------teclever services------------------------------------------------*/
 p.iner_service_ritbx_cont{
      color: #3c3c3c;
     font-size: 14px;
@@ -397,6 +397,18 @@ ul.iner_service_ritbx_cont_list{
 }
 
 
+
+
+.service_scndpage_contnt{
+    position: relative;
+    bottom: 36em;
+    left: 3.5em;
+}
+.service_fourthpage_contnt{
+    position: relative;
+    /*bottom: 36em;*/
+    left: 3.5em;
+}
 
 /*-----------homepage--------------------------------*/
 .social_hompag img{
