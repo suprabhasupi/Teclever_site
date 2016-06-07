@@ -19,6 +19,7 @@
 .tbold{
     font-family:tbold;
 }
+
 @font-face {
         font-family:lato_light;
         src: url(font/Lato-Light.ttf);
@@ -30,9 +31,11 @@
 @font-face {
         font-family:lato_black;
         src: url(font/Lato-Black.ttf);
+
 }
 .lato_black{
     font-family:lato_black;
+
 }
 
 @font-face {
