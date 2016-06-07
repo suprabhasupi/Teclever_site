@@ -19,9 +19,7 @@
 .tbold{
     font-family:tbold;
 }
-<<<<<<< HEAD
 
-=======
 @font-face {
         font-family:lato_light;
         src: url(font/Lato-Light.ttf);
@@ -29,19 +27,15 @@
 .lato_light{
     font-family:lato_light;
 }
->>>>>>> ad35b86d707dbddd095cd94d8ba039557e857dbe
 
 @font-face {
         font-family:lato_black;
         src: url(font/Lato-Black.ttf);
-<<<<<<< HEAD
+
 }
 .lato_black{
     font-family:lato_black;
-=======
-}
-.lato_black{
-    font-family:lato_black;
+
 }
 
 @font-face {
@@ -50,5 +44,4 @@
 }
 .lato_litittalic{
     font-family:lato_litittalic;
->>>>>>> ad35b86d707dbddd095cd94d8ba039557e857dbe
 }
