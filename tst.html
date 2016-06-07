@@ -1,0 +1,42 @@
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" alt="" class="clip-svg">
+
+<svg width="0" height="0">
+  <defs>
+    <clipPath id="myClip">
+      <circle cx="100" cy="100" r="40"/>
+      <circle cx="60" cy="60" r="40"/>
+    </clipPath>
+  </defs>
+</svg>
+
+
+<style>
+img {
+  width: 120px;
+  margin: 20px;
+  animation: move 8s alternate infinite linear;
+}
+
+@keyframes move {
+  to {
+    margin-left: 100px;
+  }
+}
+
+.clip-svg {
+  clip-path: url(#myClip);
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    red,
+    yellow
+  );
+}
+
+body, html {
+  height: 100%;
+}
+
+<style>
