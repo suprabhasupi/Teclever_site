@@ -120,7 +120,7 @@
   }
   /*----------------------------------------teclecer_contact-----------------------------------*/
   .faltu_hdr{
-    position: absolute;
+    position: fixed;
     border: 1px solid none;
     padding: 2.7em;
     top: -1px;
@@ -529,7 +529,7 @@
   
   .social_hompag img {
       margin-right: 0;
-      margin-left: -1em;
+      margin-left:  4em;
   }
   
   .facebook {
