@@ -2,6 +2,22 @@
       margin: 0px;
       overflow-x: hidden;
   }
+  
+ img.teclever_logo.main_logo_teclever{
+position: relative;
+    top: .5em;
+    left: .2em;
+ }
+
+ .logo_box{
+   background:white; 
+   position:absolute;
+   height:5.6em;
+   left: 6em;
+   z-index: 10000;
+ }
+
+
       
     body {
         margin: 0px
@@ -73,6 +89,7 @@
     border:1px solid black;
     height: 72px;
     }
+
 
   span.service {
       color: white;
