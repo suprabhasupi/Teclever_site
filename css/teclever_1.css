@@ -221,6 +221,10 @@
       text-decoration: none;
       color: #00c5ff;
   }
+
+  .nv_tab_active{
+    color: #00c5ff;
+  }
   
   p.contact_hedr {
       color: white;
