@@ -2,6 +2,10 @@
       margin: 0px;
       overflow-x: hidden;
   }
+
+  .container{
+    padding: 0;
+  }
   
   img.teclever_logo.main_logo_teclever {
       position: relative;
@@ -66,9 +70,7 @@
       float: right;
       left: 1em;
   }
-  /*----------------------------------------teclecer_contact-----------------------------------*/
   
-  .teclever_logo_1 {}
   /*------------------------------------teclever services------------------------------------------------*/
   
   .header_box {
@@ -132,6 +134,30 @@
       background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.88), #FFFFFF);
   }
   
+  .linkedin_icon{
+    padding: 0;
+    position: relative;
+    left: -1.7%;
+  }
+
+  .rss_icon{
+    padding: 3px;
+    margin-top: -0.4%;
+    margin-left: -3%;
+  }
+
+  .google_icon{
+        position: relative;
+        top: -1px;
+        left: -3.1%;
+  }
+  .facebook_icon{
+    padding: 0;
+  }
+  .twitter_icon{
+        position: relative;
+    left: -2.5%;
+  }
   .fb {
       position: fixed;
       top: 1em;
@@ -139,23 +165,23 @@
   }
   
   .facbook {
-      left: -3.6em;
+      /* left: -3.6em; */
       top: 9px;
       width: 4.8em;
   }
   
-  .twitter {
-      right: 20em;
-  }
+ /* .twitter {
+       right: 64.2%;
+  }*/
   
-  .linkedin {
-      right: 13.5em;
-  }
+ /* .linkedin {
+      right: 13.7em;
+  }*/
   
-  .google {
+ /* .google {
       right: 8em;
       top: 14px;
-  }
+  }*/
   
   .logo {
       top: 0;
@@ -163,14 +189,11 @@
       z-index: 100000;
   }
   
-  .rss {
+/*  .rss {
       right: 3.1em;
       top: 7px;
   }
-  /*.social img{
-        position:relative;
-        top:-1px;
-    }*/
+*/
   
   .nav_head {
       border: 1px solid none;
@@ -191,13 +214,14 @@
   
   .social {
       top: -2.8em;
+      padding: 0;
   }
   
   .social img {
       position: absolute;
       /* margin: 0 30px; */
       top: 8px;
-      margin-right: .9em;
+      /* margin-right: .9em; */
   }
   
   .nav_tab {
@@ -238,7 +262,7 @@
   
   .fotr_icon {
       position: relative;
-      left: 2.4em;
+      left: 30%;
       top: 5px;
   }
   
@@ -561,19 +585,14 @@
       left: 3.5em;
   }
   /*-----------homepage--------------------------------*/
-  
-  .social_hompag img {
-      margin-right: 0;
-      margin-left: 4em;
-  }
-  
-  .facebook {
-      left: -13.4%;
-  }
+
+
   
   .foter_frst_row_hompag {
-      margin-top: 10px;
-      margin-left: 5.8em;
+      margin-top: 6px;
+      /*margin-left: 5.8em;*/
+     /* position: relative;
+      left: 5%;*/
   }
   
   input.pasword_hompag {
@@ -604,12 +623,13 @@
   
   .hompage_frst_row {
       position: relative;
-      top: 1em;
+      top: 17%;
+      /*left: 6.5%;*/
   }
   
   .hompage_scnd_row {
       position: relative;
-      top: 1.5em;
+      top: 21%;
   }
   
   span.ftr_cont_hompg {
@@ -770,7 +790,7 @@
   }
   
   footer {
-      width: 100%;
+      width: 104.5%;
       height: 6em;
       background: #323232;
       position: relative;
@@ -785,3 +805,30 @@
       font-style: normal;
       color: white;
   }
+/*@media screen and (min-width: 480px) {
+   
+   .foter_frst_row_hompag{
+    position:relative;
+    left: 5em;
+   }
+}*/
+
+/*@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+.foter_frst_row_hompag{
+    position:relative;
+    left: 0em;
+   }
+}
+*/
+/*@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+.foter_frst_row_hompag{
+    position:relative;
+    left: 0em;
+   }
+}*/

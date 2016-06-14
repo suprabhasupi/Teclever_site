@@ -23,7 +23,7 @@
     .container {
         padding: 0;
         margin: 0;
-        width: 100%;
+        width: 104.5%;
     }
     
     .svg-normal-mask {
@@ -40,16 +40,17 @@
         background-image: url(images/img_blur.jpg);
         background-repeat: no-repeat;
         -webkit-background-size: 100%;
-        -moz-background-size: 100%;
+        /*-moz-background-size: 100%;*/
         /*background-size: 100%;*/
-        /*-o-background-size: 100%;*/
+       /* -o-background-size: 100%;
         margin: 0px;
         min-height: 100%;
         min-width: 1024px;
         width: 100%;
         height: 100%;
         top: 0;
-        left: 0;
+        left: 0;*/
+        padding: 0;
     }
     
     .icons_text {
@@ -76,14 +77,14 @@
 
 <body>
     <div class="container">
-        <div class="full_page">
-            <div class="col-md-12 col-sm-12 col-xs-12 faltu_hdr">
+        <div class="full_page col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-1 col-xs-12 faltu_hdr">
                 <div class="icons_text">
                     <a href="teclever.html
 "><img src="images/TECLEVER-gif-logo-(1).png" class="pull-right fb logo teclever_logo"></a>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 nav_head">
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-sm-8 col-xs-8">
                     </div>
                     <div class="col-md-4 lato_light tab_bar">
                         <a href="teclever_service.html" class="nav_tab">SERVICES</a>
@@ -96,37 +97,54 @@
         </div>
     </div>
     <footer>
-        <div class="row hompage_frst_row">
+
+
+        <div class="col-ms-12 col-sm-12 col-xs-12 hompage_frst_row">
             <div class="col-md-1"></div>
-            <div class="col-md-4 social social_hompag" style="    top: -3px;">
-                <!--  <a href="#"><img src="images/teclever_contact/fb.png" class="pull-right fb facebook"></a> -->
-                <a href="#"> <img src="images/teclever_contact/twitter.png" class="pull-right fb twitter " style="right:20.4em;
+
+            <div class="col-md-5 col-sm-6 col-xs-6 social" style=" top: -3px;">
+            <div class="facebook_icon col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><img src="images/teclever_contact/fb.png" class="fb facbook"></a>
+                </div>
+                <div class="twitter_icon col-md-2 col-sm-2 col-xs-2">
+                <a href="#"> <img src="images/teclever_contact/twitter.png" class="fb twitter "
                     "></a>
-                <a href="#"><img src="images/teclever_contact/linkedin.png" class="pull-right fb linkedin"></a>
-                <a href="#"><img src="images/teclever_contact/google.png" class="pull-right fb google"></a>
-                <a href="#"><img src="images/teclever_contact/rss.png" class="pull-right fb rss"></a>
-                <a href="#"><img src="images/teclever_contact/fb.png" class="pull-right fb facbook facebook"></a>
+                    </div>
+                    <div class="linkedin_icon col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><img src="images/teclever_contact/linkedin.png" class="fb linkedin"></a>
+                </div>
+                <div class="google_icon col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><img src="images/teclever_contact/google.png" class="fb google"></a>
+                </div>
+                <div class="rss_icon col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><img src="images/teclever_contact/rss.png" class="fb rss"></a>
+                </div>
+                <!-- <a href="#"><img src="images/teclever_contact/fb.png" class="pull-right fb facbook facebook"></a> -->
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5 foter_frst_row_hompag">
+
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-6 col-sm-6 col-xs-6 foter_frst_row_hompag pull-right">
                 <input type="txt" name="" placeholder="username" class="username_hompag lato_litittalic">
                 <input type="txt" name="" placeholder="password" class="pasword_hompag lato_litittalic">
                 <button class="login_butn_hompag">LOGIN</button>
             </div>
-            <div class="col-md-1"></div>
+
+            <!-- <div class="col-md-1"></div> -->
         </div>
-        <div class="row hompage_scnd_row">
-            <div class="col-md-1"></div>
-            <div class="col-md-4 lato_light tab_bar tab_bar_homepage">
+
+
+        <div class="col-md-12 col-sm-12 col-xs-12 hompage_scnd_row">
+            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4 lato_light tab_bar tab_bar_homepage">
                 <a href="teclever_service.html" class="nav_tab ser">Services</a>
                 <a href="teclever_solutions.html" class="nav_tab ser">Solutions</a>
                 <a href="teclever_contact.html" class="nav_tab ser">Contact us</a>
             </div>
-            <div class="col-md-6 lato_light">
+            <div class="col-md-6 col-sm-6 col-xs-6 lato_light">
                 <img src="images/circe_c.png" class="img_c"><span class="ftr_cont_hompg">2016 Track, Monitor and Control</span>
                 <a href="#"><span class="frgtpawd">Forgot Password</span></a>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-md-1 col-sm-1 col-xs-1"></div>
         </div>
     </footer>
 </body>
