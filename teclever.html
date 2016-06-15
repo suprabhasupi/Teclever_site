@@ -2,11 +2,8 @@
 <html>
 
 <head>
-<<<<<<< HEAD
-<link rel="icon" href="images/TECLEVER-gif-logo-(1).png" type="image/gif" sizes="16x16">
-=======
+
     <link rel="icon" href="images/TECLEVER-gif-logo-(1).png" type="image/gif" sizes="16x16">
->>>>>>> 520fb3c72e559d282d3da82d0b898c0f7fb28bb7
     <title>Track, Monitor and Control</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/teclever_1.css">
@@ -27,17 +24,30 @@
     .container {
         padding: 0;
         margin: 0;
-        width: 104.5%;
+        width: 100%;
     }
     
     .svg-normal-mask {
-        -webkit-mask: url(logo_shape.svg);
-        mask: url(logo_shape.svg);
+        /*-webkit-mask: url(logo_shape.svg);*/
+        /*mask: url(logo_shape.svg);*/
+         /*  mask: url("logo_shape.svg") center center / cover;
+    -webkit-mask-image: url("logo_shape.svg") center center / cover;
         position: relative;
         -webkit-mask-position: 0px -10px;
+     
         animation: up_n_down 2s alternate infinite linear;
         opacity: .8;
         width: 100%;
+          height:100%;*/
+
+           -webkit-mask: url(logo_shape.svg) center center / cover;
+   mask: url(logo_shape.svg) center center / cover;
+   position: relative;
+   -webkit-mask-position: 0px -10px;
+   animation: up_n_down 2s alternate infinite linear;
+   opacity: .8;
+   width: 100%;
+   height: 100%
     }
     
     .full_page {
@@ -97,7 +107,9 @@
                     </div>
                 </div>
             </div>
+            <!-- <div class="container svg_mask_img_new"> -->
             <img src="images/img_1.jpg" alt="" class="svg-normal-mask" />
+            <!-- </div> -->
         </div>
     </div>
     <footer>

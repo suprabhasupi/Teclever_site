@@ -286,6 +286,8 @@
       background-image: url(../images/teclever_service/bg1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position:center;
+      /*background-size: 100% 100%;*/
       height: 47em;
       width: 100%;
   }
@@ -323,17 +325,17 @@
       font-size: 14px;
       color: white;
       position: relative;
-<<<<<<< HEAD
+
       top: -4em;
-=======
-      top: -1em;
->>>>>>> 520fb3c72e559d282d3da82d0b898c0f7fb28bb7
+      /*top: -1em;*/
   }
   
   .second_page_service {
       background-image: url(../images/teclever_service/bg5.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      /*background-size: 100% 100%;*/
+      background-position:center;
       height: 47.3em;
       width: 100%;
       position: relative;
