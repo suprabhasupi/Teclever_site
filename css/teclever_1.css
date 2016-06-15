@@ -323,7 +323,11 @@
       font-size: 14px;
       color: white;
       position: relative;
+<<<<<<< HEAD
+      top: -4em;
+=======
       top: -1em;
+>>>>>>> 520fb3c72e559d282d3da82d0b898c0f7fb28bb7
   }
   
   .second_page_service {
