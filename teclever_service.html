@@ -14,21 +14,22 @@
     <div class="container service_page col-md-12 col-sm-12 col-xs-12">
         <div class="row">
             <div class="first_page_service"></div>
-            <div class="col-md-12 col-sm-1 col-xs-12 faltu_hdr">
+            <div class="col-md-12 col-sm-12 col-xs-12 faltu_hdr">
                 <div class="icons_text">
                     <a href="teclever.html
 "><img src="images/TECLEVER-gif-logo-(1).png" class="pull-right fb logo teclever_logo"></a>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 nav_head">
-                    <div class="col-md-8 col-sm-8 col-xs-8">
+                    <div class="col-md-8 col-sm-7 col-xs-7">
                     </div>
-                    <div class="col-md-4 lato_light tab_bar">
+                    <div class="col-md-4 col-sm-5 col-xs-5 lato_light tab_bar">
                         <a href="teclever_service.html" class="nav_tab">SERVICES</a>
                         <a href="teclever_solutions.html" class="nav_tab">SOLUTIONS</a>
                         <a href="teclever_contact.html" class="nav_tab">CONTACT US</a>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="col-md-2 col-sm-2 col-xs-2"></div>
                 <div class="col-md-8 col-sm-8 col-xs-8 service_frstpage_contnt_frst lato_black">
@@ -77,7 +78,7 @@
                 </a>
             </div>
             <div class="col-md-8 col-sm-8 col-xs-8 service_thirdpage_contnt">
-                <p class=" frstpage_headr lato_black">ENTERPRISE AND CLOUD COMPUTING</p>
+                <p class=" frstpage_headr lato_black thrd_hdr">ENTERPRISE AND CLOUD COMPUTING</p>
                 <div class="col-md-1"></div>
                 <div class="col-md-11 service_third_pag">
                     <p class="frstpage_content lato_light" style="top: -11.5em;"> Entreprise and Cloud Computing ServicesIn depth experience in delivering SOA and Cloud based solutions. Developing integrated solutions for real time dashboards with high data throughput , analytics and high performance systems.</p>
@@ -103,43 +104,36 @@
             </div>
         </div>
         <!-- -----------------------footer------------------------- -->
-        <footer>
-
-
+         <footer style="width:101.5%;">
         <div class="col-ms-12 col-sm-12 col-xs-12 hompage_frst_row">
             <div class="col-md-1"></div>
-
-            <div class="col-md-5 col-sm-6 col-xs-6 social" style=" top: -3px;">
-            <div class="facebook_icon col-md-2 col-sm-2 col-xs-2">
-                <a href="#"><img src="images/teclever_contact/fb.png" class="fb facbook"></a>
+            <div class="col-md-5 col-sm-6 col-xs-6 social" style="left: -1%;">
+                <div class="facebook_icon col-md-2 col-sm-2 col-xs-2 icn">
+                    <a href="#"><img src="images/teclever_contact/fb.png" class="fb facbook"></a>
                 </div>
-                <div class="twitter_icon col-md-2 col-sm-2 col-xs-2">
-                <a href="#"> <img src="images/teclever_contact/twitter.png" class="fb twitter "
+                <div class="twitter_icon col-md-2 col-sm-2 col-xs-2 icn">
+                    <a href="#"> <img src="images/teclever_contact/twitter.png" class="fb twitter "
                     "></a>
-                    </div>
-                    <div class="linkedin_icon col-md-2 col-sm-2 col-xs-2">
-                <a href="#"><img src="images/teclever_contact/linkedin.png" class="fb linkedin"></a>
                 </div>
-                <div class="google_icon col-md-2 col-sm-2 col-xs-2">
-                <a href="#"><img src="images/teclever_contact/google.png" class="fb google"></a>
+                <div class="linkedin_icon col-md-2 col-sm-2 col-xs-2 icn">
+                    <a href="#"><img src="images/teclever_contact/linkedin.png" class="fb linkedin"></a>
+                </div>
+                <div class="google_icon col-md-2 col-sm-2 col-xs-2 icn">
+                    <a href="#"><img src="images/teclever_contact/google.png" class="fb google"></a>
                 </div>
                 <div class="rss_icon col-md-2 col-sm-2 col-xs-2">
-                <a href="#"><img src="images/teclever_contact/rss.png" class="fb rss"></a>
+                    <a href="#"><img src="images/teclever_contact/rss.png" class="fb rss"></a>
                 </div>
                 <!-- <a href="#"><img src="images/teclever_contact/fb.png" class="pull-right fb facbook facebook"></a> -->
             </div>
-
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-6 col-sm-6 col-xs-6 foter_frst_row_hompag pull-right">
                 <input type="txt" name="" placeholder="username" class="username_hompag lato_litittalic">
                 <input type="txt" name="" placeholder="password" class="pasword_hompag lato_litittalic">
                 <button class="login_butn_hompag">LOGIN</button>
             </div>
-
             <!-- <div class="col-md-1"></div> -->
         </div>
-
-
         <div class="col-md-12 col-sm-12 col-xs-12 hompage_scnd_row">
             <div class="col-md-1 col-sm-1 col-xs-1"></div>
             <div class="col-md-4 col-sm-4 col-xs-4 lato_light tab_bar tab_bar_homepage">
@@ -156,5 +150,49 @@
     </footer>
     </div>
 </body>
+
+    <script type="text/javascript">
+$(document).ready(function(){
+// alert("hello");
+
+var x=$( window ).width();
+// alert(x);
+
+  if(x <=1024)
+  
+  {
+      //alert("resized");
+      $("button.login_butn_hompag").css({'margin-left':'3.5%'});
+       $(".icn").css({'margin':'0px 3px'});
+        $(".frstpage_headr").css({'left':'-2%'});thrd_hdr
+        $(".frstpage_headr").css({'left':'-2%'});
+      //ocation.reload();
+  }
+});
+
+$(window).resize(function() {
+   //alert("working");
+    
+    
+  var x=$( window ).width();
+  //alert(x);
+  
+  if(x <=1024)
+  
+  {
+  //alert("below size");
+      $("button.login_butn_hompag").css({'margin-left':'4.3%'});
+       $(".icn").css({'margin':'0px'});
+       $(".frstpage_headr").css({'left':'6%'});
+     
+      //location.reload();
+  }
+  
+    });
+</script>
+
+<script type="text/javascript">
+    $(window).resize(function(){location.reload();});
+</script>
 
 </html>
