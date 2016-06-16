@@ -45,3 +45,11 @@
 .lato_litittalic{
     font-family:lato_litittalic;
 }
+
+@font-face {
+        font-family:lato_medium;
+        src: url(font/Lato-Medium.ttf);
+}
+.lato_medium{
+    font-family:lato_medium;
+}

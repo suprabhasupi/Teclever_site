@@ -135,38 +135,40 @@
   }
   
   .linkedin_icon{
-    padding: 0;
-    position: relative;
-    left: -1.7%;
+    /* padding: 0; */
+    /* position: relative; */
+    left: -2%;
   }
 
   .rss_icon{
-    padding: 3px;
+    /* padding: 3px; */
     margin-top: -0.4%;
-    margin-left: -3%;
+    /* margin-left: -3%; */
+    margin-left: -1.5%;
   }
 
   .google_icon{
-        position: relative;
+        /* position: relative; */
         top: -1px;
-        left: -3.1%;
+        left: %;
   }
   .facebook_icon{
-    padding: 0;
+    /* padding: 0; */
   }
   .twitter_icon{
-        position: relative;
-    left: -2.5%;
+        /* position: relative; */
+        /* left: -2.5%; */
+        /* padding: 0; */
   }
   .fb {
       position: fixed;
-      top: 1em;
+      /* top: 1em; */
       z-index: 1000;
   }
   
   .facbook {
       /* left: -3.6em; */
-      top: 9px;
+      /* top: 9px; */
       width: 4.8em;
   }
   
@@ -213,14 +215,17 @@
   }
   
   .social {
-      top: -2.8em;
-      padding: 0;
+       top: .4em; 
+      padding: 0px;
   }
   
+  /*.icn{
+        margin: 0px 3px;
+  }*/
   .social img {
-      position: absolute;
+      position: relative;
       /* margin: 0 30px; */
-      top: 8px;
+      /* top: 8px; */
       /* margin-right: .9em; */
   }
   
@@ -315,10 +320,10 @@
   
   .frstpage_headr {
       position: relative;
-      left: 1em;
+      left: 6%;
       top: -10px;
       font-size: 48px;
-      color: #015c77;
+      color: white;
   }
   
   .frstpage_content {
@@ -326,7 +331,7 @@
       color: white;
       position: relative;
 
-      top: -4em;
+      top: -1em;
       /*top: -1em;*/
   }
   
@@ -378,6 +383,7 @@
       background-image: url(../images/teclever_service/bg3.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position:center;
       height: 47.4em;
       width: 100%;
       position: relative;
@@ -413,9 +419,10 @@
   /*---------------------fourth_page_service-----------*/
   
   .fourth_page_service {
-      background-image: url(../images/teclever_service/bg4.png);
+      background-image: url(../images/teclever_service/bg_men.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position:center;
       height: 47.3em;
       width: 100%;
       position: relative;
@@ -461,6 +468,7 @@
       background-image: url(../images/teclever_service_inner/bg2_1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position:center;
       height: 704px;
   }
   
@@ -468,6 +476,7 @@
       background-image: url(../images/teclever_service_inner/bg2_2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position:center;
       height: 704px;
   }
   
@@ -475,7 +484,17 @@
       background-image: url(../images/teclever_service_inner/bg2_3.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position:center;
       height: 704px;
+  }
+
+  .third_page_inner_service{
+ background-image: url(../images/teclever_solution_inner/bg3_1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center;
+      height: 704px;
+
   }
   
   .frst_box_serviceinner {
@@ -485,6 +504,16 @@
       background: -webkit-linear-gradient(#188bae, #0b5e77);
   }
   
+  p.teclever_solution_nam{
+    font-size: 14px;
+    color:#3c3c3c;
+  }
+  p.sol_inner_content_1{
+        margin-left: 6%;
+  }
+  .solution_inner_box{
+    margin-top: 4%;
+  }
   .scndpage_iservice {
       font-size: 14px;
       color: white;
@@ -615,7 +644,7 @@
   }
   
   button.login_butn_hompag {
-      margin-left: 1.8em;
+      margin-left: 4.3%;
       background-color: #015c77;
       color: white;
       border-color: #015c77;
@@ -687,7 +716,7 @@
   }
   
   .third_page_solution {
-      background-image: url(../images/teclever_solution/bg3.png);
+      background-image: url(../images/teclever_solution/medango.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       /*height: 47em;*/
@@ -796,7 +825,7 @@
   }
   
   footer {
-      width: 104.5%;
+      width: 100%;
       height: 6em;
       background: #323232;
       position: relative;
