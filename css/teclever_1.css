@@ -912,19 +912,19 @@
   .frst_imag_aboutus,
   .fifth_imag_aboutus {
       position: relative;
-      left: 4.15%;
+      left: 5.25%;
   }
   
   .thrd_imag_aboutus,
   .seventh_imag_aboutus {
       position: relative;
-      right: 3.2%;
+      right: 3.4%;
   }
   
   .scnd_imag_aboutus,
   .sixth_imag_aboutus {
       position: relative;
-      left: 0.5%;
+      left: 0.9%;
   }
   
   img.fourth_imag_aboutus {
@@ -949,7 +949,7 @@
   .frst_imag_aboutus:hover > .overlay {
       opacity: 1;
       /*width: 389px;*/
-      width: 89%;
+      width: 87%;
       /*height: auto;*/
       /*padding:5px;*/
       display: block;
@@ -959,8 +959,8 @@
   
   .thrd_imag_aboutus:hover > .overlay {
       opacity: 1;
-      width: 389px;
-      height: 310px height: auto;
+      width: 86.5%;
+      /*height: 310px height: auto;*/
       /*padding:5px;*/
       display: block;
       /*margin-left: 17px;*/
