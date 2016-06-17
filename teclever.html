@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="icon" href="images/TECLEVER-gif-logo-(1).png" type="image/gif" sizes="16x16">
     <title>Track, Monitor and Control</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -54,14 +55,14 @@
         -webkit-background-size: 100%;
         /*-moz-background-size: 100%;*/
         /*background-size: 100%;*/
-        /* -o-background-size: 100%;
+        -o-background-size: 100%;
         margin: 0px;
         min-height: 100%;
         min-width: 1024px;
         width: 100%;
         height: 100%;
         top: 0;
-        left: 0;*/
+        left: 0;
         padding: 0;
     }
     
@@ -90,8 +91,6 @@
 <body>
     <div class="container">
         <div class="full_page col-md-12 col-sm-12 col-xs-12">
-
-
             <div class="col-md-12 col-sm-12 col-xs-12 faltu_hdr">
                 <div class="icons_text">
                     <a href="teclever.html
@@ -101,21 +100,44 @@
                     <div class="col-md-8 col-sm-7 col-xs-7">
                     </div>
                     <div class="col-md-4 col-sm-5 col-xs-5 lato_light tab_bar">
+                        <a href="teclever_aboutus.html" class="nav_tab">ABOUT US</a>
                         <a href="teclever_service.html" class="nav_tab">SERVICES</a>
                         <a href="teclever_solutions.html" class="nav_tab">SOLUTIONS</a>
-                        <a href="teclever_contact.html" class="nav_tab">CONTACT US</a>
                     </div>
                 </div>
+                <!-- 
+                <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+    </div>
+    
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+            
+            <li><a href="#">Page 1</a></li>   
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+            
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+ -->
             </div>
-
-
-
             <!-- <div class="container svg_mask_img_new"> -->
             <img src="images/img_1.jpg" alt="" class="svg-normal-mask" />
             <!-- </div> -->
         </div>
     </div>
-    <footer>
+    <footer style="min-width:100%;">
         <div class="col-ms-12 col-sm-12 col-xs-12 hompage_frst_row">
             <div class="col-md-1"></div>
             <div class="col-md-5 col-sm-6 col-xs-6 social" style="left: -1%;">
@@ -160,49 +182,66 @@
         </div>
     </footer>
 </body>
+<script type="text/javascript">
+$(document).ready(function() {
+    // alert("hello");
 
+    var x = $(window).width();
+    // alert(x);
 
-    <script type="text/javascript">
-$(document).ready(function(){
-// alert("hello");
+    if (x <= 1024)
 
-var x=$( window ).width();
-// alert(x);
-
-  if(x <=1024)
-  
-  {
-      //alert("resized");
-      $("button.login_butn_hompag").css({'margin-left':'2.5%'});
-       $(".icn").css({'margin':'0px 3px'});
-      //ocation.reload();
-  }
+    {
+        //alert("resized");
+        $("button.login_butn_hompag").css({
+            'margin-left': '2.5%'
+        });
+        $(".icn").css({
+            'margin': '0px 3px'
+        });
+        $(".nav_tab").css({
+            'font-size': '11px'
+        });
+        $("footer").css({
+            'width': '104.5%'
+        });
+        //ocation.reload();
+    }
 });
 
 $(window).resize(function() {
-   //alert("working");
-    
-    
-  var x=$( window ).width();
-  //alert(x);
-  
-  if(x <=1024)
-  
-  {
-  //alert("below size");
-      $("button.login_butn_hompag").css({'margin-left':'4.3%'});
-       $(".icn").css({'margin':'0px'});
-     
-      //location.reload();
-  }
-  
-    });
+    //alert("working");
 
 
+    var x = $(window).width();
+    //alert(x);
+
+    if (x <= 1024)
+
+    {
+        //alert("below size");
+        $("button.login_butn_hompag").css({
+            'margin-left': '4.3%'
+        });
+        $(".icn").css({
+            'margin': '0px'
+        });
+        $(".nav_tab").css({
+            'font-size': '14px'
+        });
+        $("footer").css({
+            'width': '100%'
+        });
+
+        //location.reload();
+    }
+
+});
 </script>
-
 <script type="text/javascript">
-    $(window).resize(function(){location.reload();});
+$(window).resize(function() {
+    location.reload();
+});
 </script>
 
 </html>

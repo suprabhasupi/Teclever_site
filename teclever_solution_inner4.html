@@ -23,9 +23,9 @@
                     <div class="col-md-8 col-sm-7 col-xs-7">
                     </div>
                     <div class="col-md-4 col-sm-5 col-xs-5 lato_light tab_bar">
+                        <a href="teclever_aboutus.html" class="nav_tab">ABOUT US</a>
                         <a href="teclever_service.html" class="nav_tab">SERVICES</a>
-                        <a href="teclever_solutions.html" class="nav_tab">SOLUTIONS</a>
-                        <a href="teclever_contact.html" class="nav_tab">CONTACT US</a>
+                        <a href="teclever_solutions.html" class="nav_tab active_tab">SOLUTIONS</a>
                     </div>
                 </div>
             </div>
@@ -39,9 +39,9 @@
                     <div class="col-md-10">
                         <p class="text-center frstpage_content lato_light inner2_content">Entreprise and Cloud Computing ServicesIn depth experience in delivering SOA and Cloud based solutions. Developing integrated solutions for real time dashboards with high data throughput , analytics and high performance systems.</p>
                         <a href="https://www.medongo.com/control/home">
-                         <button class="button pull-right third_buton lato_light " style="    left: -35%;
+                            <button class="button pull-right third_buton lato_light " style="    left: -35%;
     top: 0%;">LEARN MORE</button>
-    </a>
+                        </a>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
@@ -103,8 +103,8 @@
                     <div class="col-md-2 col-sm-2 col-xs-2">
                         <img src="images/teclever_solution_inner/img5.png">
                         <p class="teclever_solution_nam lato_medium">Puneet Gurnani
-                            </p>
-                                <p class="teclever_solution_nam lato_light"> Ex. Director & Chief Engineer</p>
+                        </p>
+                        <p class="teclever_solution_nam lato_light"> Ex. Director & Chief Engineer</p>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-2">
                         <img src="images/teclever_solution_inner/img3.png">
@@ -186,6 +186,9 @@ $(document).ready(function() {
         $(".icn").css({
             'margin': '0px 3px'
         });
+        $(".nav_tab").css({
+            'font-size': '11px'
+        });
         //ocation.reload();
     }
 });
@@ -206,6 +209,9 @@ $(window).resize(function() {
         });
         $(".icn").css({
             'margin': '0px'
+        });
+        $(".nav_tab").css({
+            'font-size': '14px'
         });
 
         //location.reload();
