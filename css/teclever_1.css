@@ -845,8 +845,8 @@
   }
   
   .inner2 {
-      margin-top: 19.6em;
-      margin-left: -3em;
+      margin-top: 21.6%;
+      margin-left: -3%;
   }
   
   p.inner2_content {
@@ -882,11 +882,13 @@
       font-style: normal;
       color: white;
   }
-  /*@media screen and (min-width: 480px) {
-   
-   .foter_frst_row_hompag{
-    position:relative;
-    left: 5em;
+
+
+
+ /* @media screen and (max-width: 980px) {
+   p.circl_hover_efct1_cont1{
+    font-size: 1.2em;
+  
    }
 }*/
   /*@media screen 
@@ -975,8 +977,8 @@
   }
   
   .circl_hover_efct1 {
-      width: 200px;
-      height: 200px;
+      width: 50%;
+      height: 60%;
       /* background: rgba(255, 255, 255, 0.48); */
       -moz-border-radius: 50px;
       -webkit-border-radius: 50px;
@@ -989,7 +991,7 @@
       /*left: 5.5em;
       top: 4em;*/
       left: 20%;
-    top: 15%;
+      top: 15%;
 /*=======
       top: 6em;
       left: 8em;*/
@@ -997,13 +999,13 @@
   
   p.circl_hover_efct1_cont1 {
       color: white;
-      font-size: 32px;
+      font-size: 2em;
       margin-top: 8%;
   }
   
   p.circl_hover_efct1_cont2 {
       color: white;
-      font-size: 14px;
+      font-size: .9em;
   }
 /*.restest img {
     max-width: 100%;
@@ -1019,4 +1021,26 @@
 
 .teclevre_aboutus_mainbox{
   margin-left: 4%;
+}
+
+.navbar-toggle .icon-bar{
+  background: #f8f8f8;
+}
+
+.navbar-toggle{
+  border-color: #faf8f8;
+}
+
+.navbar-nav>li>a {
+     padding-top: 0px; 
+     padding-bottom: 0px; 
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+  background-color: transparent;
+}
+
+input[type="txt"]:focus  {
+    font-family: tregular;
+    color: white;
 }
