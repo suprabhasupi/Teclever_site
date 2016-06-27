@@ -135,6 +135,11 @@ img.left_arrow {
     /*background: red;*/
     z-index: 10;
     background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.88), #FFFFFF);
+     background: -ms-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.88), #FFFFFF);
+      background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.88), #FFFFFF);
+       background: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.88), #FFFFFF);
+        background: linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.88), #FFFFFF);
+
 }
 
 .linkedin_icon {
@@ -217,8 +222,13 @@ img.left_arrow {
     z-index: 1000;
     /*background: rgba(140, 138, 133, 0.52);*/
     background: -webkit-linear-gradient(right, #5c5a56, rgba(205, 205, 205, 0.21), #FFFFFF);
+     background: -ms-linear-gradient(right, #5c5a56, rgba(205, 205, 205, 0.21), #FFFFFF);
+      background: -moz-linear-gradient(right, #5c5a56, rgba(205, 205, 205, 0.21), #FFFFFF);
+       background: -o-linear-gradient(right, #5c5a56, rgba(205, 205, 205, 0.21), #FFFFFF);
+       background: linear-gradient(right, #5c5a56, rgba(205, 205, 205, 0.21), #FFFFFF);
     left: 0em;
 }
+
 
 .footr_contact {
     border: 1px solid none;
@@ -524,7 +534,15 @@ span.srvc {
 }
 
 .third_page_inner_service {
-    background-image: url(../images/teclever_solution_inner/bg3_1.jpg);
+    background-image: url(../images/teclever_aboutus/aboutus_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 704px;
+}
+
+.third_page_inner_serviceing{
+     background-image: url(../images/teclever_solution_inner/bg3_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -536,13 +554,22 @@ span.srvc {
     margin-top: 1em;
     min-height: 38.5em;
     background: -webkit-linear-gradient(#188bae, #0b5e77);
+    background: -ms-linear-gradient(#188bae, #0b5e77);
+    background: -moz-linear-gradient(#188bae, #0b5e77);
+    background:  -o-linear-gradient(#188bae, #0b5e77);
+    background: linear-gradient(#188bae, #0b5e77);
+
 }
 
 .frst1_box_serviceinner {
     border: 1px solid none;
     margin-top: 1em;
     min-height: 25em;
-    background: -webkit-linear-gradient(#188bae, #0b5e77);
+     background: -webkit-linear-gradient(#188bae, #0b5e77);
+    background: -ms-linear-gradient(#188bae, #0b5e77);
+    background: -moz-linear-gradient(#188bae, #0b5e77);
+    background:  -o-linear-gradient(#188bae, #0b5e77);
+    background: linear-gradient(#188bae, #0b5e77);
 }
 
 p.teclever_solution_nam {
@@ -561,7 +588,7 @@ p.sol_inner_content_1 {
 
 .solution_inner_box {
     margin-top: 4%;
-    min-height: 9.7em;
+    min-height: 8em;
 }
 
 .scndpage_iservice {
@@ -744,7 +771,8 @@ button.login_butn_hompag {
 
 .hompage_scnd_row {
     position: relative;
-    top: 21%;
+    /*top: 21%;*/
+    top:7px;
 }
 
 span.ftr_cont_hompg {
@@ -946,10 +974,6 @@ a.ser {
     color: #636363;
 }
 
-input[type="txt"] {
-    font-style: normal;
-    color: white;
-}
 
 
 /* @media screen and (max-width: 980px) {
@@ -1334,4 +1358,14 @@ input[type="txt"]:focus {
 }
 
 
+
+i.fa-linkedin{
+    position: relative;
+    top: -14px;
+    color: black;
+}
+i.fa-linkedin:hover, i.fa-linkedin:focus{
+    
+    color: #746868;
+}
 

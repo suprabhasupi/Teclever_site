@@ -1,5 +1,8 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <head>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -19,6 +22,9 @@
     @keyframes up_n_down {
         to {
             -webkit-mask-position: 0px 50px;
+          /*  -o-mask-position: 0px 50px;
+            -moz-mask-position: 0px 50px;
+            -ms-mask-position: 0px 50px;*/
         }
     }
     
@@ -41,9 +47,15 @@
         width: 100%;
           height:100%;*/
         -webkit-mask: url(logo_shape.svg) center center / cover;
+        /* -o-mask: url(logo_shape.svg) center center / cover;
+          -moz-mask: url(logo_shape.svg) center center / cover;
+           -ms-mask: url(logo_shape.svg) center center / cover;*/
         mask: url(logo_shape.svg) center center / cover;
         position: relative;
         -webkit-mask-position: 0px -10px;
+        /*-o-mask-position: 0px -10px;
+        -moz-mask-position: 0px -10px;
+        -ms-mask-position: 0px -10px;*/
         animation: up_n_down 2s alternate infinite linear;
         opacity: .8;
         width: 100%;
@@ -123,6 +135,7 @@
     </div>
                 </div>
             </div>
+
             <!-- <div class="container svg_mask_img_new"> -->
             <img src="images/img_1.jpg" alt="" class="svg-normal-mask" />
             <!-- </div> -->
@@ -152,8 +165,8 @@
             </div>
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-6 col-sm-6 col-xs-12 foter_frst_row_hompag pull-right">
-                <input type="txt" name="" placeholder="username" class="username_hompag lato_litittalic">
-                <input type="txt" name="" placeholder="password" class="pasword_hompag lato_litittalic">
+                <input type="txt" name="" placeholder="username" onfocus="this.placeholder = ''" class="username_hompag lato_litittalic">
+                <input type="txt" name="" placeholder="password" onfocus="this.placeholder = ''" class="pasword_hompag lato_litittalic">
                 <button class="login_butn_hompag">LOGIN</button>
                  <a href="#"><span class="frgtpawd frgtpaswrd_mobile">Forgot Password</span></a>
             </div>
@@ -236,4 +249,74 @@ $(window).resize(function() {
 });
 </script>
 
+
+<script>
+$(document).ready(function(){
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+        if(isFirefox){
+        $('.background_img').css('background', 'url(images/home_bg.jpg)');
+    }
+    });
+</script>
+
+
+<!-- 
+<script>
+ 
+// $(document).ready ( 
+//  function() {
+
+//    alert("mozilla"); 
+//   if ($.browser.mozilla) {
+//     // $('.full_page').css('background-image', 'url(' + images/home_bg.jpg + ')');
+
+//     // $(".full_page").css("background-image","url("+ images/home_bg.jpg +")");
+//   }
+//  }
+// );
+
+
+
+
+
+
+$(document).ready ( 
+ function() {alert("mozilla");
+  if ( $.browser.mozilla == true && $.browser.version > '3.0' ) {
+     alert("mozillass"); 
+   $('.full_page').css("background-image","url("+ images/home_bg.jpg +")");
+  }
+ }
+);
+</script> -->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+        if(isFirefox){
+        $('.full_page').css('background-image', 'url(images/home_bg.jpg)');
+        $('.svg-normal-mask').css('opacity',0);
+        $('.full_page').css('background-size', 'cover');
+    }
+    });
+</script>
+
 </html>
+<!-- <style type="text/css">
+
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+   .full_page {
+      background-image:url("images/home_bg.jpg");
+   }
+}*/
+    @-moz-document url-prefix() { 
+  .full_page {
+    background-image:url("images/home_bg.jpg") !important;
+    /*opacity: .9;*/
+  }
+
+ /* img.svg-normal-mask{
+    background-image:url("images/home_bg.jpg") !important;
+  }*/
+}
+</style> -->
