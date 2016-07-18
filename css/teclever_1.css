@@ -35,6 +35,9 @@ span.service {
     float: left;
     left: 4.5em;
 }
+.soluton_iner_margn_lft{
+        margin-left: 6em;
+}
 
 span.solution {
     /*color: #005B76;*/
@@ -1193,7 +1196,8 @@ input[type="txt"]:focus {
 
 /* Medium Devices, Desktops */
 
-@media only screen and (max-width: 992px) {input.pasword_hompag {
+@media only screen and (max-width: 992px) {
+    input.pasword_hompag {
         margin-left: 0;
     }
     button.login_butn_hompag {
