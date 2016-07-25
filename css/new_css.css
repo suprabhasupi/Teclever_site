@@ -53,3 +53,10 @@
 .lato_medium{
     font-family:lato_medium;
 }
+@font-face {
+        font-family:lato_hairlin;
+        src: url(font/Lato-Hairline.ttf);
+}
+.lato_hairlin{
+    font-family:lato_hairlin;
+}

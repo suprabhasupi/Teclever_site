@@ -99,6 +99,18 @@
         color: white;
         text-decoration: none;
     }
+    
+@media only screen and (max-width: 480px) {
+      .home_page_right{
+            
+            margin-top: 7em !important;
+    position: absolute !important;
+    
+
+    }
+    .full_page{min-width: 0px !important;background-size: cover !important;}
+    
+}
     </style>
 </head>
 
@@ -173,8 +185,7 @@
                     <a href="#"><img src="images/teclever_contact/fb.png" class="fb facbook"></a>
                 </div>
                 <div class="twitter_icon col-md-2 col-sm-2 col-xs-3 icn">
-                    <a href="#"> <img src="images/teclever_contact/twitter.png" class="fb twitter "
-                    "></a>
+                    <a href="#"> <img src="images/teclever_contact/twitter.png" class="fb twitter"></a>
                 </div>
                 <div class="linkedin_icon col-md-2 col-sm-2 col-xs-3 icn">
                     <a href="#"><img src="images/teclever_contact/linkedin.png" class="fb linkedin"></a>
@@ -212,65 +223,65 @@
     </footer>
 </body>
 <script type="text/javascript">
-$(document).ready(function() {
-    // alert("hello");
+// $(document).ready(function() {
+//     // alert("hello");
 
-    var x = $(window).width();
-    // alert(x);
+//     var x = $(window).width();
+//     // alert(x);
 
-    if (x <= 1024)
+//     if (x <= 1024)
 
-    {
-        //alert("resized");
-        // $("button.login_butn_hompag").css({
-        //     'margin-left': '2.5%'
-        // });
-        $(".icn").css({
-            'margin': '0px 3px'
-        });
-        $(".nav_tab").css({
-            'font-size': '11px'
-        });
-        $("footer").css({
-            'width': '104.5%'
-        });
-        //ocation.reload();
-    }
-});
+//     {
+//         //alert("resized");
+//         // $("button.login_butn_hompag").css({
+//         //     'margin-left': '2.5%'
+//         // });
+//         $(".icn").css({
+//             'margin': '0px 3px'
+//         });
+//         $(".nav_tab").css({
+//             'font-size': '11px'
+//         });
+//         $("footer").css({
+//             'width': '104.5%'
+//         });
+//         //ocation.reload();
+//     }
+// });
 
-$(window).resize(function() {
-    //alert("working");
+// $(window).resize(function() {
+//     //alert("working");
 
 
-    var x = $(window).width();
-    //alert(x);
+//     var x = $(window).width();
+//     //alert(x);
 
-    if (x <= 1024)
+//     if (x <= 1024)
 
-    {
-        //alert("below size");
-        // $("button.login_butn_hompag").css({
-        //     'margin-left': '4.3%'
-        // });
-        $(".icn").css({
-            'margin': '0px'
-        });
-        $(".nav_tab").css({
-            'font-size': '14px'
-        });
-        $("footer").css({
-            'width': '100%'
-        });
+//     {
+//         //alert("below size");
+//         // $("button.login_butn_hompag").css({
+//         //     'margin-left': '4.3%'
+//         // });
+//         $(".icn").css({
+//             'margin': '0px'
+//         });
+//         $(".nav_tab").css({
+//             'font-size': '14px'
+//         });
+//         $("footer").css({
+//             'width': '100%'
+//         });
 
-        //location.reload();
-    }
+//         //location.reload();
+//     }
 
-});
+// });
 </script>
 <script type="text/javascript">
-$(window).resize(function() {
-    location.reload();
-});
+// $(window).resize(function() {
+//     location.reload();
+// });
 </script>
 
 
