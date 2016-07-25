@@ -2,11 +2,48 @@ body {
     margin: 0px;
     overflow-x: hidden;
 }
+.home_page_right{
+    margin-top: 19%;
+}
 
+p.home_page_right_head{
+    font-size: 36px;
+    color: white;
+
+}
+p.home_page_right_inner{
+    font-size: 16px;
+      color: white;
+}
 .container {
     padding: 0;
 }
 
+button.home_page_servic_button{
+        background: transparent;
+    border: transparent;
+    border: 1px solid white;
+    padding: .1em 1.2em;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+
+.home_pag_ser_sol{
+    margin-left: -3em;
+    margin-top: 1em;
+}
+button.home_page_servic_button:hover{
+
+background: #015c77;
+    border-color: #015c77;
+    outline: none;
+    color: white;
+  /*width: 153px;*/
+    /*height: 38px;*/
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    }
 img.teclever_logo.main_logo_teclever {
     position: relative;
     top: .5em;
@@ -322,7 +359,7 @@ p.contct_contnt {
 /*------------------------------------teclever services------------------------------------------------*/
 
 .service_page {
-    height: 85em;
+    /*height: 85em;*/
 }
 
 .first_page_service {
@@ -331,7 +368,7 @@ p.contct_contnt {
     background-size: cover;
     background-position: center;
     /*background-size: 100% 100%;*/
-    height: 47em;
+    min-height: 47em;
     width: 100%;
 }
 
@@ -1272,7 +1309,7 @@ input[type="txt"]:focus {
     left: 4px;
     }
     button.scnd_btn_soltn{
-      left:8em;
+      /*left:8em;*/
       top:1.5em;
     }
     button.third_buton{
@@ -1290,7 +1327,14 @@ input[type="txt"]:focus {
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .service_fourthpage_contnt{
+        left: 0;
+    }
+    button.scnd_btn_soltn{
+        left: 0;
+    }
+}
 
 
 /* Extra Small Devices, Phones */
@@ -1301,6 +1345,9 @@ input[type="txt"]:focus {
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 320px) {
+     button.scnd_btn_soltn{
+        left: 0;
+    }
     input.pasword_hompag {
         margin-left: 0;
     }
